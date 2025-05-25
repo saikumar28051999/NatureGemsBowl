@@ -81,12 +81,12 @@ footer {
 
 .center-image {
   position: absolute;
-  top: 900px;
-  left: 500px;
+  top: 800px;
+  left: 600px;
 <!  transform: translate(-50%, -50%); -->
 
-  width: 200px;
-  height: 500px;
+  width: 500px;
+  height: 900px;
 }
 
 
