@@ -66,17 +66,26 @@ footer {
 }
 
 /* Floating fruits and veggies */
-.floaty {
+/* .floaty {
   position: absolute;
   width: 60px;
   animation: float 6s ease-in-out infinite;
-  opacity: 0.8;
+  opacity: 0.8;  
 }
-
 .floaty:nth-child(1) { top: 10%; left: 5%; animation-delay: 0s; }
 .floaty:nth-child(2) { top: 20%; right: 5%; animation-delay: 2s; }
 .floaty:nth-child(3) { bottom: 15%; left: 10%; animation-delay: 1s; }
 .floaty:nth-child(4) { bottom: 10%; right: 10%; animation-delay: 3s; }
+
+*/
+
+.center-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 @keyframes float {
   0%, 100% { transform: translateY(0px) rotate(0deg); }
